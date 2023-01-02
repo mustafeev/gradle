@@ -18,7 +18,7 @@ public class CashBackHackerTest {
     @Test
     void calculateIfAmount1000() {
         int amount = 1000;
-        int expected =0;
+        int expected =10;
         CashBackHacker cashBackHacker = new CashBackHacker();
         int actualCash = cashBackHacker.CashbackHackService(amount);
         assertEquals(actualCash, expected);
