@@ -17,6 +17,7 @@ public class CashBackHackerTest1 {
     @Test
     public void cashbackHackService() {
         //@BeforeSuite
+        //Я не понимаю почему ошибка в аннотации.
         @AfterClass
         void calculateBonus () {
             int amount = 2000;
